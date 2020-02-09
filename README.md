@@ -146,6 +146,7 @@ Clone the repository
 * open the command line and switch into the project folder
 * ```pip install -rrequirements.txt```
 * ```python setup.py install```
+* Edit & run the example file `python example/run.py`
 
 ### 3. Run Tests
 ```
