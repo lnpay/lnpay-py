@@ -3,8 +3,8 @@ from lnpay_py.wallet import LNPayWallet
 from lnpay_py.lntx import LNPayLnTx
 
 # Set your public key & wallet key
-lnpay_api_key = 'pak_ZA7N6YoXEXwreG3ibKzaTWQQYuEmJL'
-lnpay_wallet_key = 'wa_gJvYs6TIjsL2t9iRoNm8oQpm'
+lnpay_api_key = 'pak_XXX'
+lnpay_wallet_key = 'wa_XXX'
 
 # init lnpay
 lnpay = lnpay_py.initialize(lnpay_api_key)
