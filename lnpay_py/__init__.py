@@ -1,9 +1,9 @@
 from .utility_helpers import post_request
 
-__version__ = '0.1.0'
+__version__ = '0.1.1'
 
 __VERSION__ = 'py' + __version__
-__ENDPOINT_URL__ = 'https://lnpay.co/v1/'
+__ENDPOINT_URL__ = 'https://api.lnpay.co/v1/'
 __DEFAULT_WAK__ = ''
 __PUBLIC_API_KEY__ = ''
 
@@ -16,7 +16,7 @@ def initialize(public_api_key, default_wak=None, params=None):
     ----------
     public_api_key (str): Account public key from https://lnpay.co/dashboard/developers
     default_wak (str, optional): Default Wallet Access Key to use for a specific wallet when creating a `LNPayWallet`.
-    params (Object): Object representing additional parameters to set globally. Example: {'endpoint_url': 'https://lnpay.co/v1/'}
+    params (Object): Object representing additional parameters to set globally. Example: {'endpoint_url': 'https://api.lnpay.co/v1/'}
     """
 
     if params is None:
