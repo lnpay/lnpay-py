@@ -1,6 +1,4 @@
-from .utility_helpers import post_request
-
-__version__ = '0.1.1'
+__version__ = '0.1.2'
 
 __VERSION__ = 'py' + __version__
 __ENDPOINT_URL__ = 'https://api.lnpay.co/v1/'
@@ -34,5 +32,3 @@ def initialize(public_api_key, default_wak=None, params=None):
     __ENDPOINT_URL__ = params.get('endpoint_url', __ENDPOINT_URL__)
     __DEFAULT_WAK__ = default_wak
 
-def create_wallet(params):
-    return post_request('wallet', params)
